@@ -1,24 +1,42 @@
 /* your code here */
+footer{
+	color:white;
+	background-color:black;
+	font-size:14px;
+	
+}
 .top{
 	display:flex;
 	font-size:20px;
 	font-weight:bold;
 	justify-content:space-between;
 	width:100%;
+	margin:20px;
+	
 /* 	font-family:times; */
 }
 .media-icons{
-	width:200px;
+	width:260px;
 	display:flex;
 	justify-content:space-evenly;
+	margin-top:5px;
 }
 .link-boxes{
 	list-style:none;
 		display:flex;
 	justify-content:space-evenly;
 	margin-top:20px;
+	margin-bottom:20px;
 	
 }
 .link-boxes > div > li >a{
 	text-decoration:none;
+	color:white;
+	
+}
+.bottom-details{
+	padding-inline:20px;
+	display:flex;
+	justify-content:space-between;
+	background-color:grey;
 }
