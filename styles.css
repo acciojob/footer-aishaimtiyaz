@@ -27,12 +27,15 @@ footer{
 	justify-content:space-evenly;
 	margin-top:20px;
 	margin-bottom:20px;
-		list-style:none;
+		
 }
-.link-boxes > div > li >a{
+.link-boxes > ul{
+	list-style:none;
+}
+
+a{
 	text-decoration:none;
 	color:white;
-	
 }
 .bottom-details{
 	padding-inline:20px;
